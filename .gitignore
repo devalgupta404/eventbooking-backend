@@ -1,3 +1,23 @@
+# Build
+target/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local env/config
+*.env
+application-local.properties
+
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
