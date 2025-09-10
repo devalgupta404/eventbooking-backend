@@ -23,7 +23,7 @@ public class AuthController {
                 request.get("name"),
                 request.get("email"),
                 request.get("password"),
-                Role.valueOf(request.get("role").toUpperCase()) // "USER" or "ADMIN"
+                Role.valueOf(request.get("role").toUpperCase())
         );
         return Map.of("token", token);
     }
